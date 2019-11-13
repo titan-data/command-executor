@@ -1,6 +1,8 @@
-# About this Project
+# Command Executor
 
-Describe the project for users.
+This is a very simple java/kotlin library designed to make it easy to invoke shell commands. It is
+shared by remote providers and the main titan-server, so we publish it as a separate jar for common
+use.
 
 ## Contributing
 
