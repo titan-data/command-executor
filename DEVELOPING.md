@@ -4,18 +4,18 @@ For general information about contributing changes, see the
 [Contributor Guidelines](https://github.com/titan-data/.github/blob/master/CONTRIBUTING.md).
 
 ## How it Works
-
-Describe the internal mechanisms necessary for developers to understand how
-to get started making changes.
+ 
+It's a very lightweight wrapper around the java process commands.
 
 ## Building
 
-Describe how to build the project.
+Run `gradle build`.
 
 ## Testing
 
-Describe how to test the project.
+Tests are run automatically as part of `gradle build`, but can also be
+explicitly run via `gradle `.
 
 ## Releasing
 
-Describe how to generate new releases.
+The jar is published when a tag is created in the master branch.
